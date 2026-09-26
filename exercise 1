@@ -1,0 +1,43 @@
+ Exercise-1:Write a JavaScript program to link JavaScript file with the HTML page
+We have two ways to link java script with html 1. Internal 2. External
+1.internal: using script tag.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-
+scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="day2.css">
+</head>
+<body>
+ <p>this is example for linking js with html using script tag 
+anywhere inside body and outside body</p>
+ 
+</body>
+<script>
+alert(“hello welcome to js")
+</script>
+</html>
+Note: it is suggested write script tag after closing body tag 
+2.Externally 
+Day2.html 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-
+scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="day2.css">
+</head>
+<body>
+ <form>
+ <input id="username" type="text" placeholder="Enter your 
+name"> <br/>
+ <button onclick="Example()">Click Me</button>
+ </form>
+ 
+</body>
+<script src="day2.js">
+</script>
